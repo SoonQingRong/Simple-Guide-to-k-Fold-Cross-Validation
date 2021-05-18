@@ -5,7 +5,7 @@ A simple code for beginners to learn to use k-fold cross validation to reduce bi
 For people starting out to do machine learning, there are many ways to help to improve their model. This project aims to provide a simple usage to k-fold cross validation to help beginners to understand how cross-validation works.
 
 # Methodology
-1. Our data will the Breast Cancer dataset from Sklearn's datasets where X contains features for each instances and y is their class
+1. Our data will be the Breast Cancer dataset from Sklearn's datasets where X contains features for each instances and y is their class
 2. We will first explore the dataset to see how many are malignant (labelled as 0) and how many are benign (labelled as 1)
 3. We will then initialise a Logistic Regression Model which will be used to aid in our classification
 4. We then set the number of splits (k) to be 5, hence we are using 5-fold cross validation in our method
