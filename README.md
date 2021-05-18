@@ -23,6 +23,6 @@ For people starting out to do machine learning, there are many ways to help to i
 7. So in total, the model will have a chance to be trained on different parts of the dataset to do classification and this will help to reduce biasedness
 
 # Conclusion
-The model we have created is able to classify has an average accuracy of 95.3% and an average F1 score of 93.5% which is pretty good. Keep in mind, these two values have been averaged across 5-folds instead of just taking from a single fold. This will help to prevent some biasedness which will be encountered if only a one time train test split is used. 
+The model we have created is able to classify with an average accuracy of 95.3% and an average F1 score of 93.5% which is pretty good. Keep in mind, these two values have been averaged across 5-folds instead of just taking from a single fold. This will help to prevent some biasedness which will be encountered if only a one time train test split is used. 
 
 I hope that through understanding this simple usage of k-fold cross validation, it can help in reducing your model's biasedness. Thank you.
