@@ -7,7 +7,7 @@ For people starting out to do machine learning, there are many ways to help to i
 # Methodology
 1. Our data will the Breast Cancer dataset from Sklearn's datasets where X contains features for each instances and y is their class
 2. We will first explore the dataset to see how many are malignant (labelled as 0) and how many are benign (labelled as 1)
-3. We will be then initialise a Logistic Regression Model to aid in our classification
+3. We will then initialise a Logistic Regression Model which will be used to aid in our classification
 4. We then set the number of splits (k) to be 5, hence we are using 5-fold cross validation in our method
 5. We will then find the accuracy and F1 score at each of the fold and store them in a list
 6. F1 score is calculated in addition to accuracy because the dataset is a bit unbalanced (212 malignant, 357 benign) so as to provide a better measurement for the model's performance
