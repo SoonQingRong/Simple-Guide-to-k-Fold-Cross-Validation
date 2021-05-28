@@ -9,7 +9,7 @@ For people starting out to do machine learning, there are many ways to help to i
 2. We will first explore the dataset to see how many are malignant (labelled as 0) and how many are benign (labelled as 1)
 3. We will then initialise a Logistic Regression Model which will be used to aid in our classification
 4. We then set the number of splits (k) to be 5, hence we are using 5-fold cross validation in our method
-5. We will then find the accuracy and F1 score at each of the fold and store them in a list
+5. We will then find the accuracy and F1 score (where positive label is set to 1 for simplicity) at each of the fold and store them in a list
 6. F1 score is calculated in addition to accuracy because the dataset is a bit unbalanced (212 malignant, 357 benign) so as to provide a better measurement for the model's performance
 7. The accuracy and F1 score for each of the 5 folds are plotted
 8. The accuracy and F1 score are then averaged across the 5 folds
@@ -24,6 +24,6 @@ For people starting out to do machine learning, there are many ways to help to i
 7. So in total, the model will have a chance to be trained on different parts of the dataset to do classification and this will help to reduce biasedness
 
 # Conclusion
-The model we have created is able to classify with an average accuracy of 95.3% and an average F1 score of 93.5% which is pretty good. Keep in mind, these two values have been averaged across 5-folds instead of just taking from a single fold. This will help to prevent some biasedness which will be encountered if only a one time train test split is used. 
+The model we have created is able to classify with an average accuracy of 95.3% and an average F1 score of 96.3% which is pretty good. Keep in mind, these two values have been averaged across 5-folds instead of just taking from a single fold. This will help to prevent some biasedness which will be encountered if only a one time train test split is used. 
 
 I hope that through understanding this simple usage of k-fold cross validation, it can help in reducing your model's biasedness. Thank you.
