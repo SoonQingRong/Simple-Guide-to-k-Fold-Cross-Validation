@@ -11,7 +11,8 @@ For people starting out to do machine learning, there are many ways to help to i
 4. We then set the number of splits (k) to be 5, hence we are using 5-fold cross validation in our method
 5. We will then find the accuracy and F1 score at each of the fold and store them in a list
 6. F1 score is calculated in addition to accuracy because the dataset is a bit unbalanced (212 malignant, 357 benign) so as to provide a better measurement for the model's performance
-7. The accuracy and F1 score are then averaged across the 5 folds
+7. The accuracy and F1 score for each of the folds are plotted
+8. The accuracy and F1 score are then averaged across the 5 folds
 
 # Explaination for step 4 (5-fold cross validation)
 1. For k-fold cross validation, the entire dataset X will be split into k subsets known as folds.
